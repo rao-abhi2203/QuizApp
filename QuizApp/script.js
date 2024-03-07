@@ -91,7 +91,7 @@ const showQuestion = (question) => {
 const startTimer = (time) => {
   timer = setInterval(() => {
     if (time === 3) {
-      playAdudio("timerMusic.mp3");
+      playAdudio("QuizApp/timerMusic.mp3");
     }
     if (time >= 0) {
       progress(time);
